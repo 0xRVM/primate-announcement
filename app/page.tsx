@@ -1,10 +1,3 @@
-<Image 
-  src="/primate-logo.png" 
-  alt="Primate Logo" 
-  layout="fill"
-  objectFit="contain"
-/>
-
 export default function PrimateClosureAnnouncement() {
   return (
     <div className="min-h-screen bg-[#041c12] text-white flex flex-col justify-center items-center p-4 sm:p-8">
