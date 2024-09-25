@@ -7,7 +7,7 @@ export default function PrimateClosureAnnouncement() {
         <header className="text-center mb-12">
           <div className="w-40 h-40 mx-auto mb-8 relative">
             <Image 
-              src="/primate-logo" 
+              src="app/public/primate-logo.png"
               alt="Primate Logo" 
               width={160}
               height={160}
