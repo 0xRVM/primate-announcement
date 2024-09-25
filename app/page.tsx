@@ -6,11 +6,12 @@ export default function PrimateClosureAnnouncement() {
       <main className="max-w-3xl mx-auto">
         <header className="text-center mb-12">
           <div className="w-40 h-40 mx-auto mb-8 relative">
-           <Image 
-  src="/primate-logo.png" 
-  alt="Primate Logo" 
-  width={160}
-  height={160}
+            <Image 
+              src="/primate-logo.png" 
+              alt="Primate Logo" 
+              width={160}
+              height={160}
+              priority
 />
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Primate: Fin de una Era</h1>
