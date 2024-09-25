@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  // Asegúrate de que no haya configuraciones que desactiven el CSS
+}
 
-export default nextConfig;
+module.exports = nextConfig
