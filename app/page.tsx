@@ -1,15 +1,17 @@
+import Image from 'next/image'
+
 export default function PrimateClosureAnnouncement() {
   return (
     <div className="min-h-screen bg-[#041c12] text-white flex flex-col justify-center items-center p-4 sm:p-8">
       <main className="max-w-3xl mx-auto">
         <header className="text-center mb-12">
           <div className="w-40 h-40 mx-auto mb-8 relative">
-            <Image 
-              src="/primate-logo.png" 
-              alt="Primate Logo" 
-              layout="fill"
-              objectFit="contain"
-            />
+           <Image 
+  src="/primate-logo.png" 
+  alt="Primate Logo" 
+  width={160}
+  height={160}
+/>
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Primate: Fin de una Era</h1>
           <p className="text-xl text-gray-400 italic">El Fin de nuestro viaje en los Esports</p>
