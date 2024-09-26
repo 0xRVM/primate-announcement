@@ -29,24 +29,24 @@ export default function PrimateClosureAnnouncement() {
             </p>
           </section>
 
-          <section>
-            <h2 className="text-3xl font-semibold mb-6 text-center">Aprendizajes</h2>
-            <ul className="space-y-6">
-              {[
-                { title: "Adaptabilidad", content: "La supervivencia en los primeros años depende de victorias consistentes. El éxito está directamente ligado a la competitividad y el rendimiento constante. Los Esports están en constante cambio, y aquellos que triunfan son los que logran adaptarse a las nuevas realidades. Primate se mantuvo flexible, lo que nos permitió sobrevivir y competir durante tanto tiempo." },
-                { title: "Exigencia en el Talento", content: "La calidad del personal es crucial. Personal no capacitado genera enormes pérdidas de tiempo, experiencia y recursos, impactando directamente en los resultados. Tener personas altamente capacitadas desde el principio es clave para el éxito de un proyecto." },
-                { title: "Falencias Exógenas", content: "La industria en general carece de profesionalismo y hábitos saludables para rendir al nivel esperado. El desgaste psicológico y físico es extremadamente elevado. La naturaleza de la industria demanda una carga extenuante de exposición digital, a la cual pocos pueden adaptarse de manera saludable y sostenible. Actualmente no existen los recursos necesarios para resolver esto de manera efectiva en un entorno tan demandante." },
-                { title: "El Poder de la Comunidad", content: "La comunidad es el corazón de los Esports. El feedback, apoyo y compromiso de nuestros fans moldearon la trayectoria de nuestra marca y nos brindaron insights clave sobre lo que funcionaba y lo que no. Probar productos y adaptarse rápidamente a sus necesidades es clave para identificar oportunidades comerciales." },
-                { title: "Monetización en los Esports", content: "La dependencia exclusiva de modelos B2B limita el crecimiento de los Esports. Encontrar fuentes de ingresos genuinos y sostenibles es un desafío constante que afecta la longevidad de los equipos y las empresas. La mayoría de los modelos de negocios en Esports están basados en B2B, lo que somete a los equipos a las decisiones de los desarrolladores, limitando su previsibilidad y dejándolos con escaso margen de maniobra.<i> Los equipos de Esports deben enfocar de manera inmediata todos sus esfuerzos en generar ingresos directos de sus audiencias, alejándose de la dependencia exclusiva de acuerdos comerciales con marcas y desarrolladores.</i>" },
-                { title: "Datos y Decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
-              ].map((item, index) => (
-                <li key={index} className="bg-green-900 bg-opacity-15 rounded-lg p-6">
-                  <h3 className="text-xl font-semibold mb-2 text-[#e1e3e6]">{item.title}</h3>
-                  <p className="text-gray-300 leading-normal">{item.content}</p>
-                </li>
-              ))}
-            </ul>
-          </section>
+<section>
+          <h2 className="text-3xl font-semibold mb-6 text-center">Aprendizajes</h2>
+          <ul className="space-y-6">
+            {[
+              { title: "Adaptabilidad", content: "La supervivencia en los primeros años depende de victorias consistentes. El éxito está directamente ligado a la competitividad y el rendimiento constante. Los Esports están en constante cambio, y aquellos que triunfan son los que logran adaptarse a las nuevas realidades. Primate se mantuvo flexible, lo que nos permitió sobrevivir y competir durante tanto tiempo." },
+              { title: "Exigencia en el Talento", content: "La calidad del personal es crucial. Personal no capacitado genera enormes pérdidas de tiempo, experiencia y recursos, impactando directamente en los resultados. Tener personas altamente capacitadas desde el principio es clave para el éxito de un proyecto." },
+              { title: "Falencias Exógenas", content: "La industria en general carece de profesionalismo y hábitos saludables para rendir al nivel esperado. El desgaste psicológico y físico es extremadamente elevado. La naturaleza de la industria demanda una carga extenuante de exposición digital, a la cual pocos pueden adaptarse de manera saludable y sostenible. Actualmente no existen los recursos necesarios para resolver esto de manera efectiva en un entorno tan demandante." },
+              { title: "El Poder de la Comunidad", content: "La comunidad es el corazón de los Esports. El feedback, apoyo y compromiso de nuestros fans moldearon la trayectoria de nuestra marca y nos brindaron insights clave sobre lo que funcionaba y lo que no. Probar productos y adaptarse rápidamente a sus necesidades es clave para identificar oportunidades comerciales." },
+              { title: "Monetización en los Esports", content: <>La dependencia exclusiva de modelos B2B limita el crecimiento de los Esports. Encontrar fuentes de ingresos genuinos y sostenibles es un desafío constante que afecta la longevidad de los equipos y las empresas. La mayoría de los modelos de negocios en Esports están basados en B2B, lo que somete a los equipos a las decisiones de los desarrolladores, limitando su previsibilidad y dejándolos con escaso margen de maniobra.<i> Los equipos de Esports deben enfocar de manera inmediata todos sus esfuerzos en generar ingresos directos de sus audiencias, alejándose de la dependencia exclusiva de acuerdos comerciales con marcas y desarrolladores.</i></> },
+              { title: "Datos y Decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
+            ].map((item, index) => (
+              <li key={index} className="bg-green-900 bg-opacity-15 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-2 text-[#e1e3e6]">{item.title}</h3>
+                <p className="text-gray-300 leading-normal">{typeof item.content === 'string' ? item.content : <>{item.content}</>}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
           
 <section className="text-center mt-24">
   <h2 className="text-2xl font-semibold mb-4 text-center">Gracias</h2>
