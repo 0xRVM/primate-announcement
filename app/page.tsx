@@ -30,7 +30,7 @@ export default function PrimateClosureAnnouncement() {
           </section>
 
 <section>
-          <h2 className="text-3xl font-semibold mb-8 text-center">Aprendizajes</h2>
+          <h2 className="text-3xl font-semibold mb-6 text-center">Aprendizajes</h2>
           <ul className="space-y-8">
             {[
               { title: "Adaptabilidad", content: "La supervivencia en los primeros años depende de victorias consistentes. El éxito está directamente ligado a la competitividad y el rendimiento constante. Los Esports están en constante cambio, y aquellos que triunfan son los que logran adaptarse a las nuevas realidades. Primate se mantuvo flexible, lo que nos permitió sobrevivir y competir durante tanto tiempo." },
@@ -39,8 +39,8 @@ export default function PrimateClosureAnnouncement() {
               { title: "El Poder de la Comunidad", content: "La comunidad es el corazón de los Esports. El feedback, apoyo y compromiso de nuestros fans moldearon la trayectoria de nuestra marca y nos brindaron insights clave sobre lo que funcionaba y lo que no. Probar productos y adaptarse rápidamente a sus necesidades es clave para identificar oportunidades comerciales." },
               { title: "Monetización en los Esports", content: <>La dependencia exclusiva de modelos B2B limita el crecimiento de los Esports. Encontrar fuentes de ingresos genuinos y sostenibles es un desafío constante que afecta la longevidad de los equipos y las empresas. La mayoría de los modelos de negocios en Esports están basados en B2B, lo que somete a los equipos a las decisiones de los desarrolladores, limitando su previsibilidad y dejándolos con escaso margen de maniobra.<i> Los equipos de Esports deben enfocar de manera inmediata todos sus esfuerzos en generar ingresos directos de sus audiencias, alejándose de la dependencia exclusiva de acuerdos comerciales con marcas y desarrolladores.</i></> },
               { title: "Datos y Decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
-            ].map((item, index) => (
-              <li key={index} className="border-b border-green-800 pb-6 last:border-b-0">
+            ].map((item, index, array) => (
+              <li key={index} className={`border-b border-green-800 pb-6 ${index === array.length - 1 ? 'mb-12' : ''}`}>
                 <h3 className="text-2xl font-semibold mb-3 text-gray-100">{item.title}</h3>
                 <p className="text-gray-300 leading-relaxed">{typeof item.content === 'string' ? item.content : <>{item.content}</>}</p>
               </li>
@@ -64,13 +64,13 @@ export default function PrimateClosureAnnouncement() {
           </p>
         </section>
 
-        <section className="text-center mt-24">
-          <h2 className="text-3xl font-bold text-white">#NuncaTeRindas</h2>
+<section className="text-center my-20 py-10 border-t border-b border-green-800">
+          <h2 className="text-4xl font-bold text-white">#NuncaTeRindas</h2>
         </section>
           
 </article>
         
-<footer className="mt-24 text-center">
+<footer className="mt-16 text-center">
           <div className="flex justify-center space-x-6 mb-6">
             <a href="https://www.tiktok.com/@primateclan" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-brand-tiktok"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
