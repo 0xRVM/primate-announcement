@@ -43,7 +43,7 @@ export default function PrimateClosureAnnouncement() {
                 { title: "Monetizar los Esports", content: "La dependencia de modelos B2B limita el crecimiento de los Esports. Encontrar fuentes de ingresos genuinos y sostenibles es un desafío constante que afecta la longevidad de los equipos y las empresas. La mayoría de los modelos de negocios en Esports están basados en B2B, lo que significa que los equipos dependen constantemente de las decisiones de los desarrolladores y de la popularidad del sector para atraer marcas y patrocinadores." },
                 { title: "Los datos en la toma de decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
               ].map((item, index) => (
-                <li key={index} className="bg-green-900 bg-opacity-85 rounded-lg p-6">
+                <li key={index} className="bg-green-900 bg-opacity-15 rounded-lg p-6">
                   <h3 className="text-xl font-semibold mb-2 text-[#7E7F80]">{item.title}</h3>
                   <p className="text-gray-300 leading-relaxed">{item.content}</p>
                 </li>
