@@ -51,16 +51,16 @@ export default function PrimateClosureAnnouncement() {
 <section className="text-center mt-24">
           <h2 className="text-3xl font-semibold mb-4 text-center">Gracias</h2>
           <p className="text-gray-300 leading-normal">
-            A nuestros jugadores, staff, patrocinadores y, lo más importante, a nuestros fans: gracias por su inquebrantable apoyo
-            a lo largo de este increíble viaje. Ustedes fueron desde el primer momento la fuerza impulsora detrás de nuestro éxito, y estamos eternamente agradecidos.
+    A nuestros jugadores, staff, patrocinadores y, lo más importante, a nuestros fans: gracias por su inquebrantable apoyo
+    a lo largo de este increíble viaje. Ustedes fueron desde el primer momento la fuerza impulsora detrás de nuestro camino, y estamos eternamente agradecidos.
           </p>
         </section>
 
         <section className="text-center mt-24">
           <h2 className="text-3xl font-semibold mb-4 text-center">El Legado Continúa</h2>
           <p className="text-gray-300 mb-6 leading-relaxed">
-            Aunque Primate cierre sus puertas, su espíritu seguirá latiendo en las vidas que tocamos y en la marca imborrable que dejamos en los Esports.
-            Nuestro legado persiste, esperando su momento para despertar nuevamente en un futuro aún por escribir. 
+    Aunque Primate cierre las puertas en Esports, el espíritu del Mono seguirá latiendo en los corazones que atravesamos y en la marca imborrable que creamos.
+    Nuestro legado persiste, esperando su momento para despertar en un futuro aún por escribirse.
           </p>
         </section>
 
