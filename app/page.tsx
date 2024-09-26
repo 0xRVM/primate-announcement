@@ -16,7 +16,7 @@ export default function PrimateClosureAnnouncement() {
               nuestro compromiso con la excelencia y la mentalidad ganadora nos han 
               llevado a lograr hitos notables y crear momentos imborrables para nuestra comunidad. 
               No se trataba solo de competir, sino de redefinir los estándares dentro de la industria, 
-              apostando por la innovación y el profesionalismo donde otros veían barreras.
+              apostando por la innovación y el profesionalismo, donde otros veían barreras, nosotros vimos oportunidades para crecer y transformar la industria.
             </p>
           </section>
 
@@ -35,9 +35,9 @@ export default function PrimateClosureAnnouncement() {
               {[
                 { title: "Adaptabilidad", content: "La supervivencia en los primeros años depende de victorias consistentes. El éxito está directamente ligado a la competitividad y el rendimiento constante. Los Esports están en constante cambio, y aquellos que triunfan son los que logran adaptarse a las nuevas realidades. Primate se mantuvo flexible, lo que nos permitió sobrevivir y competir durante tanto tiempo." },
                 { title: "Exigencia en el Talento", content: "La calidad del personal es crucial. Personal no capacitado genera enormes pérdidas de tiempo, experiencia y recursos, impactando directamente en los resultados. Tener personas altamente capacitadas desde el principio es clave para el éxito de un proyecto." },
-                { title: "Falencias Exógenas", content: "La industria en general carece de profesionalismo y hábitos saludables para rendir al nivel esperado. El desgaste psicológico y físico es extremadamente elevado. La naturaleza de la industria demanda una carga extenuante de exposición digital, a la cual pocos logran adaptarse de manera saludable y sostenible. No existen los recursos necesarios para desenvolverse de manera efectiva en un entorno tan demandante." },
+                { title: "Falencias Exógenas", content: "La industria en general carece de profesionalismo y hábitos saludables para rendir al nivel esperado. El desgaste psicológico y físico es extremadamente elevado. La naturaleza de la industria demanda una carga extenuante de exposición digital, a la cual pocos pueden adaptarse de manera saludable y sostenible. Actualmente no existen los recursos necesarios para resolver esto de manera efectiva en un entorno tan demandante." },
                 { title: "El Poder de la Comunidad", content: "La comunidad es el corazón de los Esports. El feedback, apoyo y compromiso de nuestros fans moldearon la trayectoria de nuestra marca y nos brindaron insights clave sobre lo que funcionaba y lo que no. Probar productos y adaptarse rápidamente a sus necesidades es clave para identificar oportunidades comerciales." },
-                { title: "Monetizar los Esports", content: "La dependencia de modelos B2B limita el crecimiento de los Esports. Encontrar fuentes de ingresos genuinos y sostenibles es un desafío constante que afecta la longevidad de los equipos y las empresas. La mayoría de los modelos de negocios en Esports están basados en B2B, lo que significa que los equipos dependen constantemente de las decisiones de los desarrolladores y de la popularidad del sector para atraer marcas y patrocinadores." },
+                { title: "Monetización en los Esports", content: "La dependencia exclusiva de modelos B2B limita el crecimiento de los Esports. Encontrar fuentes de ingresos genuinos y sostenibles es un desafío constante que afecta la longevidad de los equipos y las empresas. La mayoría de los modelos de negocios en Esports están basados en B2B, lo que somete a los equipos a las decisiones de los desarrolladores, limitando su previsibilidad y dejándolos con escaso margen de maniobra.<i> Los equipos de Esports deben enfocar de manera inmediata todos sus esfuerzos en generar ingresos directos de sus audiencias, alejándose de la dependencia exclusiva de acuerdos comerciales con marcas y desarrolladores.</i>" },
                 { title: "Datos y Decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
               ].map((item, index) => (
                 <li key={index} className="bg-green-900 bg-opacity-15 rounded-lg p-6">
@@ -56,12 +56,12 @@ export default function PrimateClosureAnnouncement() {
   </p>
   <h2 className="text-2xl font-semibold mb-4 text-center">El Legado Continúa</h2>
   <p className="text-gray-300 mb-6 leading-relaxed text-center">
-    Aunque Primate cierre sus puertas, su espíritu seguirá latiendo en las vidas que tocamos y en la marca imborrable que dejamos en los Esports.
-    Nuestro legado persiste, esperando su momento para despertar nuevamente en un futuro aún por escribir. 
+    Aunque Primate cierre sus puertas, el espíritu del Mono seguirá latiendo en los corazones que atravesamos y en la marca imborrable que dejamos en los Esports.
+    Nuestro legado persiste, esperando su momento para despertar en un futuro aún por escribirse.
   </p>
 </section>
 
-<section className="text-center mt-20 mb-20">
+<section className="text-center py-20">
   <p className="text-3xl font-bold text-white inline-block pl-2">#NuncaTeRindas</p>
 </section>
 </article>
