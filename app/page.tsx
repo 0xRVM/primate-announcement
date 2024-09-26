@@ -1,8 +1,8 @@
 export default function PrimateClosureAnnouncement() {
   return (
-    <div className="min-h-screen bg-[#04140d] text-white flex flex-col justify-center items-center p-4 sm:p-8">
-      <main className="max-w-3xl mx-auto">
-        <header className="text-center mb-12">
+    <div className="min-h-screen bg-[#04140d] text-white flex flex-col justify-start items-center p-4 sm:p-8">
+      <main className="max-w-3xl mx-auto pt-8">
+        <header className="text-center mb-8">
           <div className="w-40 h-40 mx-auto mb-8 relative">
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Primate: Fin de una Era</h1>
@@ -40,7 +40,7 @@ export default function PrimateClosureAnnouncement() {
                 { title: "Falencias Exógenas", content: "La industria en general carece de profesionalismo y hábitos saludables para rendir al nivel esperado. El desgaste psicológico y físico es extremadamente elevado. La naturaleza de la industria demanda una carga extenuante de exposición digital, a la cual pocos logran adaptarse de manera saludable y sostenible. No existen las herramientas necesarias para desenvolverse de manera efectiva en un entorno tan demandante." },
                 { title: "El Poder de la Comunidad", content: "La comunidad es el corazón de los Esports. El feedback, apoyo y compromiso de nuestros fans moldearon la trayectoria de nuestra marca y nos brindaron insights clave sobre lo que funcionaba y lo que no. Probar productos y adaptarse rápidamente a sus necesidades es clave para identificar oportunidades comerciales." },
                 { title: "Monetizar los Esports", content: "La dependencia de modelos B2B limita el crecimiento de los Esports. Encontrar fuentes de ingresos genuinos y sostenibles es un desafío constante que afecta la longevidad de los equipos y las empresas. La mayoría de los modelos de negocios en Esports están basados en B2B, lo que significa que los equipos dependen constantemente de las decisiones de los desarrolladores y de la popularidad del sector para atraer marcas y patrocinadores." },
-                { title: "Datos y Toma de Decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
+                { title: "Datos y Decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
               ].map((item, index) => (
                 <li key={index} className="bg-green-900 bg-opacity-15 rounded-lg p-6">
                   <h3 className="text-xl font-semibold mb-2 text-[#e1e3e6]">{item.title}</h3>
@@ -63,8 +63,8 @@ export default function PrimateClosureAnnouncement() {
   </p>
 </section>
 
-<section className="text-center mt-24 mb-24">
-  <p className="text-3xl font-bold animate-rainbow-text">#NuncaTeRindas</p>
+<section className="text-center mt-30 mb-30">
+  <p className="text-3xl font-bold text-white inline-block pl-2">#NuncaTeRindas</p>
 </section>
 </article>
         
