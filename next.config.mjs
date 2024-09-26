@@ -4,7 +4,7 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: '/primate-ico.ico',
+        source: '/primate-logo.png',
         headers: [
           {
             key: 'Cache-Control',
