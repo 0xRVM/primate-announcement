@@ -49,7 +49,6 @@ export default function PrimateClosureAnnouncement() {
               ))}
             </ul>
           </section>
-
 <section className="text-center mt-24">
   <h2 className="text-2xl font-semibold mb-4 text-center">Gracias</h2>
   <p className="text-gray-300 leading-relaxed text-center mb-12">
@@ -62,17 +61,11 @@ export default function PrimateClosureAnnouncement() {
     Nuestro legado está lejos de desaparecer; yace latente, esperando su momento para despertar en un futuro aún por escribir.
   </p>
  </section>
-
-          
 <section className="text-center mt-24 mb-24">
   <p className="text-3xl font-bold animate-rainbow-text">#NuncaTeRindas</p>
 </section>
-
-
+ </article>
 <footer className="mt-24 text-center">
-         
-        </article>
-
         <footer className="mt-16 text-center">
           <div className="flex justify-center space-x-6 mb-6">
             <a href="https://www.tiktok.com/@primateclan" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
