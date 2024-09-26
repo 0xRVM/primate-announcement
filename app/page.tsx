@@ -61,7 +61,7 @@ export default function PrimateClosureAnnouncement() {
   </p>
 </section>
 
-<section className="text-center mt-30 mb-30">
+<section className="text-center mt-20 mb-20">
   <p className="text-3xl font-bold text-white inline-block pl-2">#NuncaTeRindas</p>
 </section>
 </article>
