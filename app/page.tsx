@@ -11,7 +11,7 @@ export default function PrimateClosureAnnouncement() {
 
         <article className="space-y-12">
           <section>
-            <h2 className="text-2xl font-semibold mb-4 text-center">Nuestro Camino</h2>
+            <h2 className="text-3xl font-semibold mb-4 text-center">Nuestro Camino</h2>
             <p className="text-gray-300 leading-relaxed">
               A lo largo de los años, Primate ha sido un lider en la escena de los Esports en Argentina, 
               con una posición dominante en League of Legends. Desde el principio, 
@@ -23,7 +23,7 @@ export default function PrimateClosureAnnouncement() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4 text-center">La Decisión</h2>
+            <h2 className="text-3xl font-semibold mb-4 text-center">La Decisión</h2>
             <p className="text-gray-300 leading-relaxed">
               Hoy cerramos el capítulo de Primate en Esports, una decisión difícil pero necesaria.
               A lo largo de nuestra trayectoria, enfrentamos la creciente falta de previsibilidad en la industria, lo que nos llevó a reevaluar nuestro camino.
@@ -32,7 +32,7 @@ export default function PrimateClosureAnnouncement() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-6 text-center">Nuestros Aprendizajes</h2>
+            <h2 className="text-3xl font-semibold mb-6 text-center">Aprendizajes</h2>
             <ul className="space-y-6">
               {[
                 { title: "Adaptabilidad", content: "La supervivencia en los primeros años depende de victorias consistentes. El éxito está directamente ligado a la competitividad y el rendimiento constante. Los Esports están en constante cambio, y aquellos que triunfan son los que logran adaptarse a las nuevas realidades. Primate se mantuvo flexible, lo que nos permitió sobrevivir y competir durante tanto tiempo." },
