@@ -1,6 +1,6 @@
 export default function PrimateClosureAnnouncement() {
   return (
-    <div className="min-h-screen bg-[#04140d] text-white flex flex-col items-center p-4 sm:p-8">
+    <div className="min-h-screen bg-[#0a0a0a] text-white flex flex-col items-center p-4 sm:p-8">
       <main className="max-w-3xl w-full">
         <header className="text-center mb-8">
           <h1 className="text-4xl sm:text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Primate: Fin de una Era</h1>
