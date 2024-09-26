@@ -39,13 +39,13 @@ export default function PrimateClosureAnnouncement() {
                 { title: "Adaptabilidad", content: "La supervivencia en los primeros años depende de victorias consistentes. El éxito está directamente ligado a la competitividad y el rendimiento constante. Los Esports están en constante cambio, y aquellos que triunfan son los que logran adaptarse a las nuevas realidades. Primate se mantuvo flexible, lo que nos permitió sobrevivir y competir durante tanto tiempo." },
                 { title: "Exigencia en el Talento", content: "La calidad del personal es crucial. Personal no capacitado genera enormes pérdidas de tiempo, experiencia y recursos, impactando directamente en los resultados. Tener personas altamente capacitadas desde el principio es clave para el éxito de un proyecto." },
                 { title: "Falencias Exógenas", content: "La industria en general carece de profesionalismo y hábitos saludables para rendir al nivel esperado. El desgaste psicológico y físico es extremadamente elevado. La naturaleza de la industria demanda una carga extenuante de exposición digital, a la cual pocos logran adaptarse de manera saludable y sostenible. No existen las herramientas necesarias para desenvolverse de manera efectiva en un entorno tan demandante." },
-                { title: "El poder de la comunidad", content: "La comunidad es el corazón de los Esports. El feedback, apoyo y compromiso de nuestros fans moldearon la trayectoria de nuestra marca y nos brindaron insights clave sobre lo que funcionaba y lo que no. Probar productos y adaptarse rápidamente a sus necesidades es clave para identificar oportunidades comerciales." },
+                { title: "El Poder de la Comunidad", content: "La comunidad es el corazón de los Esports. El feedback, apoyo y compromiso de nuestros fans moldearon la trayectoria de nuestra marca y nos brindaron insights clave sobre lo que funcionaba y lo que no. Probar productos y adaptarse rápidamente a sus necesidades es clave para identificar oportunidades comerciales." },
                 { title: "Monetizar los Esports", content: "La dependencia de modelos B2B limita el crecimiento de los Esports. Encontrar fuentes de ingresos genuinos y sostenibles es un desafío constante que afecta la longevidad de los equipos y las empresas. La mayoría de los modelos de negocios en Esports están basados en B2B, lo que significa que los equipos dependen constantemente de las decisiones de los desarrolladores y de la popularidad del sector para atraer marcas y patrocinadores." },
-                { title: "Los datos en la toma de decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
+                { title: "Datos y Toma de Decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
               ].map((item, index) => (
                 <li key={index} className="bg-green-900 bg-opacity-15 rounded-lg p-6">
-                  <h3 className="text-xl font-semibold mb-2 text-[#7E7F80]">{item.title}</h3>
-                  <p className="text-gray-300 leading-relaxed">{item.content}</p>
+                  <h3 className="text-xl font-semibold mb-2 text-[#e1e3e6]">{item.title}</h3>
+                  <p className="text-gray-300 leading-normal">{item.content}</p>
                 </li>
               ))}
             </ul>
@@ -53,7 +53,7 @@ export default function PrimateClosureAnnouncement() {
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">Gracias</h2>
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-gray-300 leading-normal">
               A nuestros jugadores, staff, patrocinadores y, lo más importante, a nuestros fans: gracias por su inquebrantable apoyo
               a lo largo de este increíble viaje. Ustedes fueron desde el primer momento la fuerza impulsora detrás de nuestro éxito, y estamos eternamente agradecidos.
             </p>
