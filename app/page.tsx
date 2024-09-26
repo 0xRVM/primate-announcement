@@ -49,22 +49,28 @@ export default function PrimateClosureAnnouncement() {
               ))}
             </ul>
           </section>
+          
 <section className="text-center mt-24">
   <h2 className="text-2xl font-semibold mb-4 text-center">Gracias</h2>
-  <p className="text-gray-300 leading-relaxed text-center mb-12">
+  <p className="text-gray-300 leading-normal">
     A nuestros jugadores, staff, patrocinadores y, lo más importante, a nuestros fans: gracias por su inquebrantable apoyo
-    a lo largo de este increíble viaje. Todos ustedes fueron desde el primer momento la fuerza impulsora detrás de nuestro éxito, y estamos eternamente agradecidos.
+    a lo largo de este increíble viaje. Ustedes fueron desde el primer momento la fuerza impulsora detrás de nuestro éxito, y estamos eternamente agradecidos.
   </p>
-  <h2 className="text-2xl font-semibold mb-4 text-center">El Legado</h2>
-  <p className="text-gray-300 mb-6 leading-relaxed text-center">
-    Aunque Primate cierre sus puertas, el espíritu del mono seguirá resonando en cada corazón que atravesamos y en la marca imborrable que dejamos en los Esports
-    Nuestro legado está lejos de desaparecer; yace latente, esperando su momento para despertar en un futuro aún por escribir.
+</section>
+
+<section className="text-center mt-24">
+  <h2 className="text-2xl font-semibold mb-4">El Legado Continúa</h2>
+  <p className="text-gray-300 mb-6 leading-relaxed">
+    Aunque Primate cierre sus puertas, su espíritu seguirá latiendo en las vidas que tocamos y en la marca imborrable que dejamos en los Esports.
+    Nuestro legado persiste, esperando su momento para despertar nuevamente en un futuro aún por escribir. 
   </p>
- </section>
+</section>
+
 <section className="text-center mt-24 mb-24">
   <p className="text-3xl font-bold animate-rainbow-text">#NuncaTeRindas</p>
-</section>
- </article>
+      </section>
+</article>
+        
 <footer className="mt-24 text-center">
         <footer className="mt-16 text-center">
           <div className="flex justify-center space-x-6 mb-6">
