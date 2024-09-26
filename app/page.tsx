@@ -50,26 +50,25 @@ export default function PrimateClosureAnnouncement() {
             </ul>
           </section>
           
-          <section>
-            <h2 className="text-2xl font-semibold mb-4 text-center">Gracias</h2>
-            <p className="text-gray-300 leading-normal">
-              A nuestros jugadores, staff, patrocinadores y, lo más importante, a nuestros fans: gracias por su inquebrantable apoyo
-              a lo largo de este increíble viaje. Ustedes fueron desde el primer momento la fuerza impulsora detrás de nuestro éxito, y estamos eternamente agradecidos.
-            </p>
-          </section>
+<section className="text-center mt-24">
+  <h2 className="text-2xl font-semibold mb-4 text-center">Gracias</h2>
+  <p className="text-gray-300 leading-relaxed text-center mb-12">
+    A nuestros jugadores, staff, patrocinadores y, lo más importante, a nuestros fans: gracias por su inquebrantable apoyo
+    a lo largo de este increíble viaje. Ustedes fueron desde el primer momento la fuerza impulsora detrás de nuestro éxito, y estamos eternamente agradecidos.
+  </p>
+  <h2 className="text-2xl font-semibold mb-4 text-center">El Legado Continúa</h2>
+  <p className="text-gray-300 mb-6 leading-relaxed text-center">
+    Aunque Primate cierre sus puertas, su espíritu seguirá latiendo en las vidas que tocamos y en la marca imborrable que dejamos en los Esports.
+    Nuestro legado persiste, esperando su momento para despertar nuevamente en un futuro aún por escribir. 
+  </p>
+</section>
 
-          <section className="text-center">
-            <h2 className="text-2xl font-semibold mb-4">El Legado Continúa</h2>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              Aunque Primate cierre sus puertas, su espíritu seguirá latiendo en las vidas que tocamos y en la marca imborrable que dejamos en los Esports.
-              Nuestro legado persiste, esperando su momento para despertar nuevamente en un futuro aún por escribir. 
-            </p>
-            <p className="text-3xl font-bold animate-rainbow-text">#NuncaTeRindas</p>
-          </section>
+<section className="text-center mt-24 mb-24">
+  <p className="text-3xl font-bold animate-rainbow-text">#NuncaTeRindas</p>
+</section>
 </article>
         
 <footer className="mt-24 text-center">
-        <footer className="mt-16 text-center">
           <div className="flex justify-center space-x-6 mb-6">
             <a href="https://www.tiktok.com/@primateclan" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-brand-tiktok"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
