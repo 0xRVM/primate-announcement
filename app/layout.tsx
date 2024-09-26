@@ -17,7 +17,10 @@ export const metadata: Metadata = {
   title: "Primate: Fin de una Era",
   description: "Cierre de Primate Esports",
   icons: {
-    icon: '/primate-logo.png',
+    icon: [
+      { url: '/primate-ico.ico', sizes: 'any' },
+      { url: '/primate-logo.png', type: 'image/png', sizes: '32x32' },
+    ],
   },
 };
 
