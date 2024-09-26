@@ -1,15 +1,13 @@
 export default function PrimateClosureAnnouncement() {
   return (
-    <div className="min-h-screen bg-[#04140d] text-white flex flex-col justify-start items-center p-4 sm:p-8">
-      <main className="max-w-3xl mx-auto pt-8">
+    <div className="min-h-screen bg-[#04140d] text-white flex flex-col items-center p-4 sm:p-8">
+      <main className="max-w-3xl w-full">
         <header className="text-center mb-8">
-          <div className="w-40 h-40 mx-auto mb-8 relative">
-          </div>
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Primate: Fin de una Era</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Primate: Fin de una Era</h1>
           <p className="text-xl text-gray-400 italic">El Fin de nuestro viaje en los Esports</p>
         </header>
 
-        <article className="space-y-12">
+        <article className="space-y-8">
           <section>
             <h2 className="text-3xl font-semibold mb-4 text-center">Nuestro Camino</h2>
             <p className="text-gray-300 leading-relaxed">
