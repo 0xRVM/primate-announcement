@@ -16,10 +16,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Primate: Fin de una Era",
   description: "Cierre de Primate Esports",
-  icons: [
-    { rel: "icon", url: "/primate-ico.ico", sizes: "any" },
-    { rel: "apple-touch-icon", url: "/primate-logo.png", sizes: "180x180" },
-  ],
+  icons: {
+    icon: '/primate-logo.png',
+  },
 };
 
 export default function RootLayout({
