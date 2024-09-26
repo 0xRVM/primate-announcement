@@ -56,7 +56,7 @@ export default function PrimateClosureAnnouncement() {
   </p>
   <h2 className="text-2xl font-semibold mb-4 text-center">El Legado Continúa</h2>
   <p className="text-gray-300 mb-6 leading-relaxed text-center">
-    Aunque Primate cierre sus puertas, el espíritu del Mono seguirá latiendo en los corazones que atravesamos y en la marca imborrable que dejamos en los Esports.
+    Aunque Primate cierre las puertas en Esports, el espíritu del Mono seguirá latiendo en los corazones que atravesamos y en la marca imborrable que creamos.
     Nuestro legado persiste, esperando su momento para despertar en un futuro aún por escribirse.
   </p>
 </section>
