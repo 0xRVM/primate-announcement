@@ -44,7 +44,7 @@ export default function PrimateClosureAnnouncement() {
                 { title: "Los datos en la toma de decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
               ].map((item, index) => (
                 <li key={index} className="bg-green-900 bg-opacity-85 rounded-lg p-6">
-                  <h3 className="text-xl font-semibold mb-2 text-green-400">{item.title}</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-[#7E7F80]">{item.title}</h3>
                   <p className="text-gray-300 leading-relaxed">{item.content}</p>
                 </li>
               ))}
