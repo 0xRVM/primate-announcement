@@ -1,6 +1,6 @@
 export default function PrimateClosureAnnouncement() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white flex flex-col items-center p-4 sm:p-8">
+    <div className="min-h-screen bg-black text-white flex flex-col items-center p-4 sm:p-8">
       <main className="max-w-3xl w-full">
         <header className="text-center mb-8">
           <h1 className="text-4xl sm:text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Primate: Fin de una Era</h1>
@@ -30,8 +30,8 @@ export default function PrimateClosureAnnouncement() {
           </section>
 
 <section>
-          <h2 className="text-3xl font-semibold mb-6 text-center">Aprendizajes</h2>
-          <ul className="space-y-6">
+          <h2 className="text-3xl font-semibold mb-8 text-center">Aprendizajes</h2>
+          <ul className="space-y-8">
             {[
               { title: "Adaptabilidad", content: "La supervivencia en los primeros años depende de victorias consistentes. El éxito está directamente ligado a la competitividad y el rendimiento constante. Los Esports están en constante cambio, y aquellos que triunfan son los que logran adaptarse a las nuevas realidades. Primate se mantuvo flexible, lo que nos permitió sobrevivir y competir durante tanto tiempo." },
               { title: "Exigencia en el Talento", content: "La calidad del personal es crucial. Personal no capacitado genera enormes pérdidas de tiempo, experiencia y recursos, impactando directamente en los resultados. Tener personas altamente capacitadas desde el principio es clave para el éxito de un proyecto." },
@@ -40,9 +40,9 @@ export default function PrimateClosureAnnouncement() {
               { title: "Monetización en los Esports", content: <>La dependencia exclusiva de modelos B2B limita el crecimiento de los Esports. Encontrar fuentes de ingresos genuinos y sostenibles es un desafío constante que afecta la longevidad de los equipos y las empresas. La mayoría de los modelos de negocios en Esports están basados en B2B, lo que somete a los equipos a las decisiones de los desarrolladores, limitando su previsibilidad y dejándolos con escaso margen de maniobra.<i> Los equipos de Esports deben enfocar de manera inmediata todos sus esfuerzos en generar ingresos directos de sus audiencias, alejándose de la dependencia exclusiva de acuerdos comerciales con marcas y desarrolladores.</i></> },
               { title: "Datos y Decisiones", content: "Acceder a datos fiables en los Esports es uno de los mayores desafíos. Los desarrolladores controlan la mayoría de la información, lo que dificulta el análisis profundo y la toma de decisiones basada en datos. Esta falta de transparencia es una barrera para la innovación y la optimización dentro del sector." }
             ].map((item, index) => (
-              <li key={index} className="bg-green-900 bg-opacity-15 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-2 text-[#e1e3e6]">{item.title}</h3>
-                <p className="text-gray-300 leading-normal">{typeof item.content === 'string' ? item.content : <>{item.content}</>}</p>
+              <li key={index} className="border-b border-green-800 pb-6 last:border-b-0">
+                <h3 className="text-2xl font-semibold mb-3 text-gray-100">{item.title}</h3>
+                <p className="text-gray-300 leading-relaxed">{typeof item.content === 'string' ? item.content : <>{item.content}</>}</p>
               </li>
             ))}
           </ul>
