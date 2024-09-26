@@ -17,9 +17,10 @@ export const metadata: Metadata = {
   title: "Primate: Fin de una Era",
   description: "Cierre de Primate Esports",
   icons: [
-    { rel: "icon", url: "/primate-logo.png", type: "image/png", sizes: "32x32" },
-    { rel: "icon", url: "/primate-logo.png", type: "image/png", sizes: "16x16" },
-    { rel: "apple-touch-icon", url: "/primate-logo.png", sizes: "180x180" },
+    { rel: "icon", url: "/primate-ico.ico", sizes: "any" },
+    { rel: "apple-touch-icon", url: "/primate-logo-180.png", sizes: "180x180" },
+    { rel: "apple-touch-icon", url: "/primate-logo-152.png", sizes: "152x152" },
+    { rel: "apple-touch-icon", url: "/primate-logo-120.png", sizes: "120x120" },
   ],
 };
 
