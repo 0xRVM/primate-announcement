@@ -16,7 +16,7 @@ export default function PrimateClosureAnnouncement() {
               nuestro compromiso con la excelencia y la mentalidad ganadora nos han 
               llevado a lograr hitos notables y crear momentos imborrables para nuestra comunidad. 
               No se trataba solo de competir, sino de redefinir los estándares,
-              apostando por la innovación y el profesionalismo, donde otros veían barreras, nosotros vimos oportunidades para crecer y transformar la industria.
+              apostando por la innovación y el profesionalismo. Donde otros veían barreras, nosotros vimos oportunidades para crecer y transformar la industria.
             </p>
           </section>
 
