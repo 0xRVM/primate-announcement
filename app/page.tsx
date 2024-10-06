@@ -52,7 +52,7 @@ export default function PrimateClosureAnnouncement() {
           <h2 className="text-3xl font-semibold mb-6 text-center">Gracias</h2>
           <p className="text-gray-300 leading-normal">
     A nuestros jugadores, staff, patrocinadores y, lo más importante, a nuestros fans: gracias por su inquebrantable apoyo
-    a lo largo de este increíble viaje. Ustedes fueron desde el primer momento la fuerza impulsora detrás de nuestro camino, y estamos eternamente agradecidos.
+    a lo largo de este increíble viaje. Ustedes fueron desde el primer momento la fuerza impulsora detrás de nuestro camino y estamos eternamente agradecidos.
           </p>
         </section>
 
